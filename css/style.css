@@ -3,13 +3,10 @@
 body{
     font-family: 'Roboto', sans-serif;
     display: flex;
-    min-height: 100vh;
-    position: relative;
     flex-direction: column;
     justify-content:flex-start;
     align-items: center;
     -webkit-tap-highlight-color: hsla(0, 100%, 70%, 0.25);
-    padding-bottom: 128px;
     margin: 0;
 }
 section{
@@ -18,6 +15,27 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+a{
+    color: black;
+    text-decoration: underline;
+}
+
+img{
+    width: 50%;
+    height: fit-content;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 128px;
 }
 
 .productContainer{
